@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE5D9EA43043F794EA39621B2644CFC28E73968B",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "CE5D9EA43043F794EA39621B2644CFC28E73968B" : 0,
+    "251D2E2F618EE59A20F37AC13122C5CB6F8362AF" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3ED1C7EC-08B4-4914-BC4A-F5E542318B56",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "CE5D9EA43043F794EA39621B2644CFC28E73968B" : "Medical-Record\/",
+    "251D2E2F618EE59A20F37AC13122C5CB6F8362AF" : "Medical-Record\/RPFloatingPlaceholders\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Medical Record",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Medical Record.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iwasrobbed\/RPFloatingPlaceholders.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "251D2E2F618EE59A20F37AC13122C5CB6F8362AF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Luisangelperezherrera\/Medical-Record.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "CE5D9EA43043F794EA39621B2644CFC28E73968B"
+    }
+  ]
+}
