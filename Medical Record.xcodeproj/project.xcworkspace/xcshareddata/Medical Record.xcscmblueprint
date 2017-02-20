@@ -1,16 +1,18 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "CE5D9EA43043F794EA39621B2644CFC28E73968B",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "9F04110F1C96D88BE098D2B8C95A70F42937E38E",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
     "CE5D9EA43043F794EA39621B2644CFC28E73968B" : 0,
-    "251D2E2F618EE59A20F37AC13122C5CB6F8362AF" : 0
+    "251D2E2F618EE59A20F37AC13122C5CB6F8362AF" : 0,
+    "9F04110F1C96D88BE098D2B8C95A70F42937E38E" : 0
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3ED1C7EC-08B4-4914-BC4A-F5E542318B56",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
     "CE5D9EA43043F794EA39621B2644CFC28E73968B" : "Medical-Record\/",
-    "251D2E2F618EE59A20F37AC13122C5CB6F8362AF" : "Medical-Record\/RPFloatingPlaceholders\/"
+    "251D2E2F618EE59A20F37AC13122C5CB6F8362AF" : "Medical-Record\/RPFloatingPlaceholders\/",
+    "9F04110F1C96D88BE098D2B8C95A70F42937E38E" : "Medical-RecordIpad\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "Medical Record",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
@@ -20,6 +22,11 @@
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/iwasrobbed\/RPFloatingPlaceholders.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "251D2E2F618EE59A20F37AC13122C5CB6F8362AF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Luisangelperezherrera\/Medical-RecordIpad.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "9F04110F1C96D88BE098D2B8C95A70F42937E38E"
     },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/Luisangelperezherrera\/Medical-Record.git",

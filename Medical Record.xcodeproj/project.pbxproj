@@ -44,7 +44,7 @@
 		83942B381E5B55B4003544BE /* AgendarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83942B371E5B55B4003544BE /* AgendarViewController.m */; };
 		83942B411E5B60C6003544BE /* SimpleTableCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83942B3F1E5B60C6003544BE /* SimpleTableCell.xib */; };
 		83942B421E5B60C6003544BE /* SimpleTableCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 83942B401E5B60C6003544BE /* SimpleTableCell.m */; };
-		839E872B1E562F3400F8AADD /* RPFloatingPlaceholderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E872A1E562F3400F8AADD /* RPFloatingPlaceholderTextField.m */; };
+		83942C151E5B797E003544BE /* RPFloatingPlaceholderTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 83942C141E5B797E003544BE /* RPFloatingPlaceholderTextField.m */; };
 		839E87451E56CE8500F8AADD /* MCSlidingTabs.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E87441E56CE8500F8AADD /* MCSlidingTabs.m */; };
 		839E87491E56D7B800F8AADD /* AltaPacienteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 839E87481E56D7B800F8AADD /* AltaPacienteViewController.m */; };
 /* End PBXBuildFile section */
@@ -132,8 +132,9 @@
 		83942B3E1E5B60C6003544BE /* SimpleTableCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleTableCell.h; sourceTree = "<group>"; };
 		83942B3F1E5B60C6003544BE /* SimpleTableCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SimpleTableCell.xib; sourceTree = "<group>"; };
 		83942B401E5B60C6003544BE /* SimpleTableCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleTableCell.m; sourceTree = "<group>"; };
-		839E87291E562F3400F8AADD /* RPFloatingPlaceholderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RPFloatingPlaceholderTextField.h; path = RPFloatingPlaceholders/RPFloatingPlaceholders/RPFloatingPlaceholderTextField.h; sourceTree = SOURCE_ROOT; };
-		839E872A1E562F3400F8AADD /* RPFloatingPlaceholderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RPFloatingPlaceholderTextField.m; path = RPFloatingPlaceholders/RPFloatingPlaceholders/RPFloatingPlaceholderTextField.m; sourceTree = SOURCE_ROOT; };
+		83942C131E5B797E003544BE /* RPFloatingPlaceholderTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderTextField.h; sourceTree = "<group>"; };
+		83942C141E5B797E003544BE /* RPFloatingPlaceholderTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RPFloatingPlaceholderTextField.m; sourceTree = "<group>"; };
+		83942C161E5B79B2003544BE /* RPFloatingPlaceholderConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RPFloatingPlaceholderConstants.h; sourceTree = "<group>"; };
 		839E87431E56CE8500F8AADD /* MCSlidingTabs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MCSlidingTabs.h; sourceTree = "<group>"; };
 		839E87441E56CE8500F8AADD /* MCSlidingTabs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCSlidingTabs.m; sourceTree = "<group>"; };
 		839E87471E56D7B800F8AADD /* AltaPacienteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AltaPacienteViewController.h; sourceTree = "<group>"; };
@@ -391,8 +392,9 @@
 		839E87281E562EE500F8AADD /* RPFloatingPlaceholders */ = {
 			isa = PBXGroup;
 			children = (
-				839E87291E562F3400F8AADD /* RPFloatingPlaceholderTextField.h */,
-				839E872A1E562F3400F8AADD /* RPFloatingPlaceholderTextField.m */,
+				83942C161E5B79B2003544BE /* RPFloatingPlaceholderConstants.h */,
+				83942C131E5B797E003544BE /* RPFloatingPlaceholderTextField.h */,
+				83942C141E5B797E003544BE /* RPFloatingPlaceholderTextField.m */,
 			);
 			name = RPFloatingPlaceholders;
 			sourceTree = "<group>";
@@ -645,6 +647,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83942C151E5B797E003544BE /* RPFloatingPlaceholderTextField.m in Sources */,
 				83942B331E5B4974003544BE /* AntecedentesTabViewController.m in Sources */,
 				8364ED761E4C0F7100C105FE /* Medical_Record.xcdatamodeld in Sources */,
 				839E87451E56CE8500F8AADD /* MCSlidingTabs.m in Sources */,
@@ -659,7 +662,6 @@
 				83942B171E5AB1ED003544BE /* ExploracionViewController.m in Sources */,
 				83942B2F1E5B3586003544BE /* VacunasViewController.m in Sources */,
 				83942B1A1E5B12E6003544BE /* DiagnosticoViewController.m in Sources */,
-				839E872B1E562F3400F8AADD /* RPFloatingPlaceholderTextField.m in Sources */,
 				83942B021E5A6E8E003544BE /* DatosGeneralesViewController.m in Sources */,
 				83942B061E5A6F73003544BE /* HistoriaClinicaViewController.m in Sources */,
 				8364ED701E4C0F7100C105FE /* LoginController.m in Sources */,
