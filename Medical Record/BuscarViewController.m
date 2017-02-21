@@ -13,7 +13,7 @@
 #import "SimpleTableCell.h"
 #import "DatosGeneralesViewController.h"
 #import "CrearConsultaViewController.h"
-#import "AgendarViewController.h"
+#import "MainViewController.h"
 @interface BuscarViewController ()
 {
     NSArray *tableData;
@@ -349,7 +349,7 @@ UIView *modal;
 -(IBAction)showAgenda:(id)sender{
     NSLog(@"Close Modal");
     [modal setHidden:YES];
-    //[self performSegueWithIdentifier:@"agenda" sender:nil];
+    [self performSegueWithIdentifier:@"agenda" sender:nil];
 }
 
 //
